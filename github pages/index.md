@@ -1,3 +1,4 @@
+{% include navigation.html %}
 # Jun's Tri 3 GitHub Pages
 ## [Test Prep Study Page]
 ## [Data Structures Project Page]
