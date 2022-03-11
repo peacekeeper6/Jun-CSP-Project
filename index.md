@@ -5,5 +5,4 @@ layout: default
 
 {% include_relative README.md %}
 
-# Jun's Tri 3 GitHub Pages
 
