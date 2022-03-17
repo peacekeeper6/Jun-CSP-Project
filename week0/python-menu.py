@@ -86,8 +86,8 @@ import loopy
 import mathpy
 import swapy
 import matrixy
-from swapy import swap, swap2
-from keypady import matrix
+from week0.swapy import swap, swap2
+from week0.keypady import matrix
 from mody import advy
 # abstracted files in a folder (aka module)
 from mody import questy
