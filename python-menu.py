@@ -18,7 +18,9 @@ menu_options = {
     1: 'Stringy',
     2: 'Numby',
     3: 'Listy',
-    4: 'Exit',
+    4: 'Swapy',
+    5: 'Matrixy',
+    6: 'Exit',
 }
 
 # Print menu options from dictionary key/value pair
@@ -39,6 +41,12 @@ def numby():
 def listy():
     print('You chose \'3 - Listy\'')
 
+def swapy():
+  print('You chose \'4 - Swapy\'')
+
+def matrixy():
+  print('You chose \'5 - Matrixy\'')
+
 
 # call functions based on input choice
 def runOptions():
@@ -53,7 +61,11 @@ def runOptions():
             elif option == 3:
                 listy()
             # Exit menu    
-            elif option == 4:  
+            elif option == 4:
+                swapy()
+            elif option == 5:
+              matrixy()
+            elif option == 6:  
                 print('Exiting! Thank you! Good Bye...')
                 exit() # exit out of the (infinite) while loop
             else:
@@ -72,6 +84,10 @@ import stringy
 import listy
 import loopy
 import mathpy
+import swapy
+import matrixy
+from swapy import swap, swap2
+from keypady import matrix
 from mody import advy
 # abstracted files in a folder (aka module)
 from mody import questy
@@ -88,6 +104,8 @@ main_menu = [
     ["Stringy", "stringy.py"],
     ["Listy", "listy.py"],
     ["Loopy", loopy.main],
+    ["Swapy", "swapy.py"],
+    ["Matrixy", "matrixy.py"]
 ]
 
 # Submenu list of [Prompt, Action]
