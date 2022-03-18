@@ -1,23 +1,11 @@
-def swap():
-    age1 = 21
-    age2 = 16
+def swap(a, b):
+    if b < a:
+          a, b = b, a
+    return a, b
 
-    print(age1,age2)
-    temp = age1
-    age1 = age2
-    age2 = temp
-    print(age1, age2)
 
-swap()
 
-def swap2():
-    food = "burber"
-    foodd = "pizza"
-
-    print(food,foodd)
-    temp = food
-    food = foodd
-    foodd = temp
-    print(food,foodd)
-
-swap2()
+if __name__ == "__main__":
+  a = input("first number")
+  b = input("second number")
+  print(', '.join(swap(a, b)))
