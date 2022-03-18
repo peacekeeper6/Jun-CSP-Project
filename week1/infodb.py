@@ -17,5 +17,5 @@ InfoDb.append({
                "DOB": "January 1",  
                "Residence": "World",  
                "Email": "loremipsum@gmail.com",  
-               "Tri3_Teachers"":["is","simply","dummy","text", "of", "the", "printing", "and", "typesetting", "industry"]  
+               "Tri3_Teachers":["is","simply","dummy","text", "of", "the", "printing", "and", "typesetting", "industry"]  
               })  

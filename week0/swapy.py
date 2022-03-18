@@ -6,6 +6,6 @@ def swap(a, b):
 
 
 if __name__ == "__main__":
-  a = input("first number")
-  b = input("second number")
+  a = input("first number:")
+  b = input("second number:")
   print(', '.join(swap(a, b)))

@@ -1,8 +1,8 @@
-from swapy import swap
-from keypady import matrix
-import tree
+from week0.swapy import swap
+from week0.keypady import matrix
+import week0.tree
 # import prefuncy
-import prefuncy2
+# import prefuncy2
 # import week1.infodb
 
 
@@ -18,7 +18,7 @@ animationsub_menu = [
 ]
 
 landlsub_menu = [
-    # ["InfoDB", "week1/infodb.py"],
+    ["InfoDB", "week1/infodb.py"],
 ]
 
 border = "=" * 25
