@@ -7,7 +7,7 @@
 
 This is what prints the data in the InfoDB loop
 
-``
+````
 def print_data(n):
     print(InfoDb[n]["Book_Title"], "by", InfoDb[n]["Author"])  # using comma puts space between values
     print("\t", "Genre: ", end="")  # \t is a tab indent, end="" make sure no return occurs
@@ -48,15 +48,14 @@ def tester():
 
 if __name__ == "__main__":
   tester()
-  
-``
+````
 
 This is the fibonacci code. It indexes at 1, then adds to a sequence.
 
-``
+````
 def fibo(n):
   if n == 1:
     return 1
   else: 
     return (fibo(n-1) + fibo(n-2))
-``
+````
