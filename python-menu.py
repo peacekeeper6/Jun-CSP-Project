@@ -1,8 +1,9 @@
 from week0.swapy import swap
 from week0.keypady import matrix
 import week0.tree
-# import prefuncy
-# import prefuncy2
+import week1.infodb
+import week1.fibo
+# import prefuncy# import prefuncy2
 # import week1.infodb
 
 
@@ -19,8 +20,8 @@ animationsub_menu = [
 
 landlsub_menu = [
     ["InfoDB", "week1/infodb.py"],
+    ["Fibonacci", "week1/fibo.py"]
 ]
-
 border = "=" * 25
 banner = f"\n{border}\nPlease Select An Option\n{border}"
 
