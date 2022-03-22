@@ -4,6 +4,9 @@
 <iframe height="800px" width="100%" src="https://replit.com/@TWIYJun/Jun-CSP-Project?lite=true"></iframe>
 
 
+This is the data within my InfoDB array. The array is emptied out, then info is appended into the array through the command "infoDB.append".
+
+<img src="https://github.com/peacekeeper6/Jun-CSP-Project/blob/gh-pages/assets/infodb_array.PNG?raw=true"> </img>
 
 This is what prints the data in the InfoDB loop. Three different loops are printed: a for loop, a while loop, and a recursive loop. All of the above are in reference to infoDB.
 
