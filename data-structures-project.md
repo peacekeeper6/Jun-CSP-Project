@@ -5,7 +5,7 @@
 
 
 
-This is what prints the data in the InfoDB loop
+This is what prints the data in the InfoDB loop. Three different loops are printed: a for loop, a while loop, and a recursive loop. All of the above are in reference to infoDB.
 
 ````
 def print_data(n):
@@ -50,11 +50,11 @@ if __name__ == "__main__":
   tester()
 ````
 
-This is the fibonacci code. It indexes at 1, then adds to a sequence.
+This is the fibonacci code. It is a recursion loop similar to the one used with infoDB.
 
 ````
 def fibo(n):
-  if n == 1:
+  if n <= 1:
     return 1
   else: 
     return (fibo(n-1) + fibo(n-2))
