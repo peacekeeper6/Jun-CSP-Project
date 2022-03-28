@@ -32,33 +32,43 @@ InfoDb.append({
               })  
 
 
-if __name__ == "__main__":
-  def print_data(n):
-      print(InfoDb[n]["Book_Title"], "by", InfoDb[n]["Author"])  # using comma puts space between values
-      print("\t", "Genre: ", end="")  # \t is a tab indent, end="" make sure no return occurs
-      print(", ".join(InfoDb[n]["Genre"]))  # join allows printing a string list with separator
-      print("\t", "Another book by the Author: ", end="")
-      print(InfoDb[n].get("Author_Books")[0])
-      print()
+def print_data(n):
+    print(InfoDb[n]["Book_Title"], "by", InfoDb[n]["Author"])  # using comma puts space between values
+    print("\t", "Genre: ", end="")  # \t is a tab indent, end="" make sure no return occurs
+    print("".join(InfoDb[n]["Genre"]))  # join allows printing a string list with separator
+    print("\t", "Another book by the Author: ", end="")
+    print(InfoDb[n].get("Author_Books")[0])
+    print()
 
 def for_loop():
     for n in range(len(InfoDb)):
         print_data(n)
+      
 def while_loop(n):
     while n < len(InfoDb):
         print_data(n)
         n += 1
     return
+  
 def recursive_loop(n):
     if n < len(InfoDb):
         print_data(n)
         recursive_loop(n + 1)
     return # exit condition
 
-def main():
+def tester():
+  print('*' * 10)
   print("For loop")
+  print('*' * 10)
   for_loop()
+  print('*' * 10)
   print("While loop")
+  print('*' * 10)
   while_loop(0)
+  print('*' * 10)
   print("Recursive loop")
+  print('*' * 10)
   recursive_loop(0)
+
+def run():
+  tester()

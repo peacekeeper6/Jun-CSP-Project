@@ -3,6 +3,8 @@ from week0.keypady import matrix
 import week0.tree
 import week1.infodb
 import week1.fibo
+import week2.facty
+import week2.mathy
 # import prefuncy# import prefuncy2
 # import week1.infodb
 
@@ -19,8 +21,13 @@ animationsub_menu = [
 ]
 
 landlsub_menu = [
-    ["InfoDB", "week1/infodb.py"],
-    ["Fibonacci", "week1/fibo.py"]
+    ["InfoDB", week1.infodb.run],
+    ["Fibonacci", week1.fibo.display]
+]
+
+mathsub_menu = [
+  ["Factorial", week2.facty.display],
+  ["Math", week2.mathy.gcd]
 ]
 border = "=" * 25
 banner = f"\n{border}\nPlease Select An Option\n{border}"
@@ -62,11 +69,16 @@ def landlsubmenu():
     title = "Function Submenu" + banner
     buildMenu(title, landlsub_menu)
 
+def mathsubmenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, mathsub_menu)
+
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
     menu_list.append(["Animations", animationsubmenu])
     menu_list.append(["Lists and Loops", landlsubmenu])
+    menu_list.append(["Math", mathsubmenu])
     buildMenu(title, menu_list)
 
 
