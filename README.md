@@ -6,6 +6,8 @@
 
 [Week 1](https://github.com/peacekeeper6/Jun-CSP-Project/issues/3)
 
+[Week 2](https://github.com/peacekeeper6/Jun-CSP-Project/issues/5)
+
 ## Repositories
 [Team Repository](https://github.com/jeankim05/tri3teambigmac)
 
