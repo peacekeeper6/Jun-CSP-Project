@@ -1,8 +1,22 @@
 {% include navigation.html %}
 <a href="https://github.com/peacekeeper6/Jun-CSP-Project">Link to GitHub Repository for code</a>
 
+
 <iframe height="800px" width="100%" src="https://replit.com/@TWIYJun/Jun-CSP-Project?lite=true"></iframe>
 
+This is the palindrome function that was extra credit. There is python classing in it as well, as instructed.
+
+<img src="https://github.com/peacekeeper6/Jun-CSP-Project/blob/gh-pages/assets/palindromy.PNG?raw=true">
+
+
+This is the math function that we were supposed to choose. I chose the GCD function and changed it to have python classes.
+
+<img src="https://github.com/peacekeeper6/Jun-CSP-Project/blob/gh-pages/assets/mathy.PNG?raw=true">
+
+This is my factorial function. The top part is the function with python classes, while the bottom is the classless.
+
+
+<img src="https://github.com/peacekeeper6/Jun-CSP-Project/blob/gh-pages/assets/facty.PNG?raw=true">
 
 This is the data within my InfoDB array. The array is emptied out, then info is appended into the array through the command "infoDB.append".
 
