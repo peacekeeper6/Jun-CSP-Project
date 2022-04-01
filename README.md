@@ -1,5 +1,6 @@
 # Jun's CSP GitHub Pages
 
+![](https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif)
 ## Review Tickets
 
 [Week 0](https://github.com/peacekeeper6/Jun-CSP-Project/issues/1)
