@@ -5,4 +5,5 @@
 
 [Week 1](https://github.com/peacekeeper6/Jun-CSP-Project/issues/3)
 
-[Week 2]
+[Week 2](https://github.com/peacekeeper6/Jun-CSP-Project/issues/5)
+
