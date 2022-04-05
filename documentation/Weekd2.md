@@ -1,4 +1,4 @@
-[Back to Documentation home](../DOPHOME)
+[Back to Documentation home](../Dhome)
 
 # Week 2 documentation
 
