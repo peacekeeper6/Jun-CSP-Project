@@ -1,32 +1,54 @@
 {% include navigation.html %}
 
-### Performance Task Idea: Memory Game
-* My performance task centers around a memory game for our website.
-* The page will be in the form of a pop-up that activates when a user first visits either one of the store pages.
-* It will ask the user if they are interested in possibly earning a 25% discount on their first order.
-* In order for the user to win this discount, they must complete the game, following the instructions.
+Create Task Details: Food Quiz
 
-### How it works
-* A user will interact with cards that are laid out on the screen.
-* They will have only one chance to look at a card.
-* They will then have a chance to click another card to see if the two cards match.
+The Food Quiz page is the practice create task. It's main goal is to quiz users on different foods as related to countries so that users can remember which countries offer which cullinary dishes and information.
 
-![](https://github.com/NinjaBreadLord/super-duper-bassoons/blob/eae82b2c56a8afc362814301fecb3a2c71e3f3e8/static/assets/Jun/ex.png?raw=true)
+Program Purpose: Create a page that quizzes users based on different foods and countries
 
-This picture can be used as reference; the black cards are ones that have yet to be unturned, while the white card shown has been turned around. -> In this situation, the user would have 1 try to match this white card to another white card from the unturned pool of cards.
+Input: Selecting answers for questions
 
-* The user will then proceed to click a different card, hoping it to be a match
-    - If it is a match, then both cards will be flipped up, eliminating them from the possible matches.
+Output: Displays user score upon submission
 
-![](https://github.com/NinjaBreadLord/super-duper-bassoons/blob/eae82b2c56a8afc362814301fecb3a2c71e3f3e8/static/assets/Jun/ex2.png?raw=true)
+Lists: Stores questions and answers in a list, then displays them later.
 
-The screen would look something like this if that were to happen.
+Procedure: Once the user fills out all of the questions, the website will add +1 to the user's score if the answer is correct, then display it.
 
-* However, if the card is not a match, then they will both be turned upside down, and cannot be turned back up. The game is still able to function because the user is now aware of the locations of two possible matches.
+Parameters: Score after user submits quiz
 
-![](https://github.com/NinjaBreadLord/super-duper-bassoons/blob/eae82b2c56a8afc362814301fecb3a2c71e3f3e8/static/assets/Jun/ex3.png?raw=true)
+Sequencing: User input in the quiz, Adds to score in case of a correct answer, Return name of restaurants that fit
 
-This is what the front-end would look like if the user chose a card that was not a match. Red and white are both flipped cards, but are not the same, so they will be turned back down in a second to look like this:
-![](https://github.com/NinjaBreadLord/super-duper-bassoons/blob/eae82b2c56a8afc362814301fecb3a2c71e3f3e8/static/assets/Jun/ex4.png?raw=true)
+Selection: Adds to score in case of a correct answer
 
-The two cards would be flipped back over, and the user would have to try a different variation to get a match, without being able to turn over the cards that they have already chosen.
+Iteration: Program loops for every question
+
+Code Snippets:
+
+const quizContainer = document.getElementById('quiz'); const resultsContainer = document.getElementById('results'); const submitButton = document.getElementById('submit'); const myQuestions = [ ]
+
+function showResults(){
+
+        const answerContainers = quizContainer.querySelectorAll('.answers');
+
+        let numCorrect = 0;
+
+        myQuestions.forEach( (currentQuestion, questionNumber) => {
+
+
+            const answerContainer = answerContainers[questionNumber];
+            const selector = `input[name=question${questionNumber}]:checked`;
+            const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+
+            if(userAnswer === currentQuestion.correctAnswer){
+
+                numCorrect++;
+
+
+                answerContainers[questionNumber].style.color = 'darkgreen';
+            }
+
+            else{
+
+                answerContainers[questionNumber].style.color = 'red';
+            }
+        });
