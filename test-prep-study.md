@@ -1,8 +1,8 @@
 {% include navigation.html %}
 
 # Test Corrections
-
-#Week 1
+ 
+# Week 1
 ## Quiz 1
 Question 13: <img src="https://github.com/peacekeeper6/Jun-CSP-Project/blob/gh-pages/assets/1q13.PNG">
 C is the right answer because the weather is not able to be tracked through the collars.
@@ -47,10 +47,10 @@ D is the right answer because for each transaction, the data includes the date o
 Question 43: <img src="https://github.com/peacekeeper6/Jun-CSP-Project/blob/gh-pages/assets/2q43.PNG">
 A is the right answer because the given code segment initializes count to 1 and increments count at the end of the outer loop. This causes the robot to move 1 square forward, then rotate left, then move 2 squares forward, then rotate left, then move 3 squares forward, then rotate left, then move 4 squares forward, then rotate left. The robot ends in the lower-right corner of the grid, facing toward the top of the grid. This code segment initializes count to 0 and increments count at the beginning of the outer loop. Because count is initialized to 0 and then immediately incremented inside the loop, the inner loop iterates the same number of times for each iteration of the outer loop as in the given code segment. The robot ends in the lower-right corner of the grid, facing toward the top of the grid.
 
-Question 45: <img src=https://github.com/peacekeeper6/Jun-CSP-Project/blob/gh-pages/assets/2q45.PNG>
+Question 45: <img src="https://github.com/peacekeeper6/Jun-CSP-Project/blob/gh-pages/assets/2q45.PNG">
 A is the right answer because the desired information can be determined by using the student IDs in spreadsheet II to identify the students who play a sport. Once the students who play a sport are identified, the grade point averages of students who play sports in spreadsheet I can be compared to the grade point averages of all other students in spreadsheet I.
 
-Question 46: <img src=https://github.com/peacekeeper6/Jun-CSP-Project/blob/gh-pages/assets/2q46.PNG>
+Question 46: <img src="https://github.com/peacekeeper6/Jun-CSP-Project/blob/gh-pages/assets/2q46.PNG">
 C is the other right answer because as any user has the ability to edit articles, there will be many opportunities for people with different perspectives to contribute.
 
 # Week 2
