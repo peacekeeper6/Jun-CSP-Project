@@ -74,7 +74,25 @@ QUestion 44:
 I got this wrong because The procedures square and cube are each used to determine a power of n. A generalization of this procedure
 is Power, open parenthesis, n comma m, close parenthesis, which calculates n raised to the mpower.
 
+## Quiz 5
 
+Question 18: <img src="https://github.com/peacekeeper6/Jun-CSP-Project/blob/gh-pages/assets/5q18.PNG?raw=true">
+A is the right answer because public-key encryption is considered a secure way of encoding data to prevent unauthorized access.
+
+Question 21: <img src="https://github.com/peacekeeper6/Jun-CSP-Project/blob/gh-pages/assets/5q21.PNG?raw=true">
+C is the right answer because the operation being done is subtracting the exponent 64 subtracted by the exponent 32.
+
+Question 33: <img src="https://github.com/peacekeeper6/Jun-CSP-Project/blob/gh-pages/assets/5q33.PNG?raw=true">
+A is the right answer the IETF develops and oversees standards such as hypertext transfer protocol (HTTP), Internet protocol (IP), and simple mail transfer protocol (SMTP).
+
+Question 43: <img src="https://user-images.githubusercontent.com/87632049/167221176-5a876e52-0dd8-48a2-87f7-7a9be8c66461.png">
+B is the right answer because the Internet was designed to be scalable, using open protocols to easily connect additional computing devices to the network.
+
+Question 44: <img src="https://user-images.githubusercontent.com/87632049/167221274-32d8e7b2-af60-420d-addf-02560daec285.png">
+A is the right answer because a rogue access point is a wireless access point that gives unauthorized access to secure networks. Data sent over public networks can be intercepted, analyzed, and modified. One way that this can happen is through a rogue access point.
+
+Question 48: <img src="https://user-images.githubusercontent.com/87632049/167221374-21ee9e64-60ac-42d1-8b63-c7cf1c20911d.png">
+D is the right answer because certificate authorities are entities that issue digital certificates, which are used to certify the ownership of public keys.
 
 | Unit | Notes | Actions  |
 | :-: |  :----: |  :---: |
