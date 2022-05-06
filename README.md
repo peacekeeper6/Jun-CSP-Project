@@ -18,3 +18,5 @@
 [Week 5](https://github.com/peacekeeper6/Jun-CSP-Project/issues/9)
 
 [Week 6](https://github.com/peacekeeper6/Jun-CSP-Project/issues/10)
+
+[Week 7](https://github.com/peacekeeper6/Jun-CSP-Project/issues/11)
